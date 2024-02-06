@@ -31,14 +31,18 @@ export default function Home() {
             start: "top 80%",
             end: "top 20%",
             scrub: true,
-            markers: true,
+            pin: ".right",
+            // markers: true,
             toggleActions: "play play reverse reverse",
           },
         }
       );
     });
   });
-
+  // onEnter
+  // onLeave
+  // onEnterBack
+  // onLeaveBack
   return (
     <main className="flex min-h-screen flex-col items-center justify-between w-full">
       <div className="min-h-screen p-16 text-black flex justify-start w-full leading-normal bg-green-400 items-center text-7xl "></div>
@@ -63,6 +67,7 @@ export default function Home() {
           perspiciatis quos quae!{" "}
         </h2>
       </div>
+      <div className="h-[450px] w-[450px] rounded-lg bg-red-400 right"></div>
     </main>
   );
 }
