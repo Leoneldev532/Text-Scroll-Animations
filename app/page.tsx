@@ -71,7 +71,7 @@ export default function Home() {
           perspiciatis quos quae!{" "}
         </h2>
       </div>
-      <div className="h-[450px] w-[450px] rounded-lg bg-red-400 right"></div>
+{/*       <div className="h-[450px] w-[450px] rounded-lg bg-red-400 right"></div> */}
     </main>
   );
 }
